@@ -1,3 +1,5 @@
+![MCP Nextcloud Deck](docs/header.jpg)
+
 # MCP Nextcloud Deck
 
 MCP Server for Nextcloud Deck - Kanban board management via Model Context Protocol.
