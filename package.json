@@ -1,0 +1,41 @@
+{
+  "name": "@fastbs/mcp-nextcloud-deck",
+  "version": "1.0.0",
+  "description": "MCP Server for Nextcloud Deck - Kanban board management via Model Context Protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-nextcloud-deck": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "nextcloud",
+    "deck",
+    "kanban",
+    "task-management",
+    "model-context-protocol"
+  ],
+  "author": "FastBS",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "@types/express": "^5.0.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "zod": "^3.25.57"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
